@@ -1,0 +1,1 @@
+This is a blockchain and cryto-currency geared toward making rent payments easier.  
