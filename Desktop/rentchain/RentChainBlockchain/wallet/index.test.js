@@ -1,3 +1,4 @@
+
 const Transaction = require('RentChainBlockchain/wallet/transaction');
 const { STARTING_BALANCE } = require('RentChainBlockchain/config');
 const { ec, cryptoHash } = require('RentChainBlockchain/utility');
@@ -57,5 +58,4 @@ class Wallet {
     return hasConductedTransaction ? outputsTotal : STARTING_BALANCE + outputsTotal;
   }
 };
-
 module.exports = Wallet;
